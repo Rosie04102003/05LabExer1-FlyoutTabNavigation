@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutTabNavPrefi.Pages.SabrinaCarpenterPage"
+             Title="Sabrina Carpenter">
+    <ScrollView>
+        <VerticalStackLayout 
+            BackgroundColor="#EACDAB">
+
+            <VerticalStackLayout
+                Margin="20"
+                WidthRequest="300">
+
+                <Label
+                Style="{StaticResource FlyoutText}"
+                TextColor="#211515"
+                x:Name="sabrinaText"
+                FontAttributes="Bold"
+                />
+
+                <Image
+                    Source="sabrina.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"
+                    />
+
+                <Label
+                    Style="{StaticResource FlyoutText}"
+                    TextColor="#211515"
+                    x:Name="sabrinaAlbum"/>
+
+                <Label
+                    Style="{StaticResource FlyoutText}"
+                    TextColor="#211515"
+                    x:Name="sabrinaFavorite"
+                    FontAttributes="Italic"
+                    />
+
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutTabNavPrefi.Pages.TaylorSwiftPage"
+             Title="Taylor Swift">
+    
+    <ScrollView>
+            <VerticalStackLayout 
+            BackgroundColor="#252525">
+
+            <VerticalStackLayout
+                Margin="20"
+                WidthRequest="300">
+
+                <Label
+                Style="{StaticResource FlyoutText}"
+                x:Name="taylorText"
+                FontAttributes="Bold"
+                />
+
+                <Image
+                    Source="taylor.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"
+                    />
+
+                <Label
+                    Style="{StaticResource FlyoutText}"
+                    x:Name="taylorAlbum"/>
+
+                <Label
+                    Style="{StaticResource FlyoutText}"
+                    x:Name="taylorFavorite"
+                    FontAttributes="Italic"
+                    />
+
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>
